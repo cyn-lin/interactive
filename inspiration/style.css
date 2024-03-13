@@ -1,0 +1,24 @@
+body {
+  font-family: monospace;
+  padding: 30px;
+}
+/* Add space between columns */
+table {
+  border-spacing: 10px; /* Adjust the value to increase or decrease space */
+  border-collapse: separate;
+}
+
+td {
+  padding: 10px; /* Adjust the value to add padding to each cell */
+}
+
+/* Style links within td elements */
+td a {
+  color: rgba(15, 206, 131, 1);
+  font-weight: 300; /* Adjust the value to make the font thinner */
+}
+
+/* Hover state for links */
+td a:hover {
+  /* No text-decoration for hover state */
+}
