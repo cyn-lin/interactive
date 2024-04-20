@@ -1,0 +1,27 @@
+body {
+  font-family: times new roman;
+  padding: 2px;
+}
+
+/* Add space between columns */
+table {
+  border-spacing: 5px;
+  border-collapse: separate;
+  padding: 50px; /* Adjust the padding to add space on the left and right */
+}
+
+td {
+  padding: 5px;
+}
+
+/* Style links within td elements */
+td a {
+  color: rgba(15, 206, 131, 1);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Hover state for links */
+td a:hover {
+  text-decoration: underline;
+}

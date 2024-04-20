@@ -1,6 +1,6 @@
 
 var SPREADSHEET_ID = "1pTYscXORfnCZDOyCkO1VC7EwvOz9yxVfXFXwimqf7jE";
-var TAB_NAME = "Sheet1";
+var TAB_NAME = "media-tracker";
 
 /* 
 These are two variables (containers for data) that you need to replace with your own information.
@@ -37,7 +37,6 @@ $(document).ready(function () {
       var titleLink = entry.link ? `<a href="${entry.link}" target="_blank">${entry.title}</a>` : entry.title;
 
       $(`<tr> 
-            <td>` + entry.musings + `</td>
             <td>` + entry.type + `</td>
             <td>` + titleLink + `</td>
             <td>` + entry.author + `</td>
